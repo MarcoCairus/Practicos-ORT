@@ -42,7 +42,7 @@ document.querySelector("#b3-30").addEventListener("click", ej30B3);
 document.querySelector("#c1-30").addEventListener("click", ej30C1);
 document.querySelector("#c2-30").addEventListener("click", ej30C2);
 document.querySelector("#c3-30").addEventListener("click", ej30C3);
-
+//Ejercicio 1
 function ej1() {
   let num = parseInt(document.querySelector("#valor1").value);
   let p = document.querySelector("#p1");
@@ -52,7 +52,7 @@ function ej1() {
     p.innerHTML = `El numero ${num} es negativo`;
   }
 }
-
+//Ejercicio 2
 function ej2() {
   let num = parseInt(document.querySelector("#valor2").value);
   let p = document.querySelector("#p2");
@@ -62,7 +62,7 @@ function ej2() {
     p.innerHTML = "";
   }
 }
-
+// Ejercicio 3
 function ej3() {
   let num = parseInt(document.querySelector("#valor3").value);
   let p = document.querySelector("#p3");
@@ -72,15 +72,18 @@ function ej3() {
     p.innerHTML = `El numero ${num} es menor o igual a 20`;
   }
 }
-
+//Ejercicio 4
 function ej4() {
   let num = parseInt(document.querySelector("#valor4").value);
   let p = document.querySelector("#p4");
   if (num < 0) {
     p.innerHTML = `${num - num * 2}`;
   }
+  else{
+    p.innerHTML=num;
+  }
 }
-
+// Ejercicio 5
 function ej5() {
   let num = parseInt(document.querySelector("#valor5").value);
   let p = document.querySelector("#p5");
@@ -90,17 +93,17 @@ function ej5() {
     p.innerHTML = `El Numero ${num} es menor a 10 o mayor a 20`;
   }
 }
-
+// Ejercicio 6
 function ej6() {
   let num = parseInt(document.querySelector("#valor6").value);
   let p = document.querySelector("#p6");
   if (num % 7 === 0 && num % 3 === 0) {
     p.innerHTML = `El Numero ${num} es multiplo de 7 y 3`;
   } else {
-    p.innerHTML = "";
+    p.innerHTML = "No es multiplo de 7 y 3";
   }
 }
-
+//Ejercicio 7
 function ej7() {
   let num = parseInt(document.querySelector("#valor7").value);
   let p = document.querySelector("#p7");
@@ -110,7 +113,7 @@ function ej7() {
     p.innerHTML = `El numero ${num} NO Cumple`;
   }
 }
-
+//Ejercicio 8
 function ej8() {
   let num = parseInt(document.querySelector("#valor8").value);
   let p = document.querySelector("#p8");
@@ -122,7 +125,7 @@ function ej8() {
     p.innerHTML = `El numero ${num} esta entre 10 y 30`;
   }
 }
-
+//Ejercicio 9
 function ej9() {
   let dia = document.querySelector("#valor9").value;
   let temp = parseInt(document.querySelector("#valor10").value);
@@ -143,7 +146,7 @@ function ej9() {
     p2.innerHTML = "Esta intermedio";
   }
 }
-
+//Ejercicio 10
 function ej10() {
   let num1 = parseInt(document.querySelector("#valor11").value);
   let num2 = parseInt(document.querySelector("#valor12").value);
@@ -154,34 +157,34 @@ function ej10() {
     p.innerHTML = num2 - num1;
   }
 }
-
+//Ejercicio 11
 function ej11() {
   let num1 = parseInt(document.querySelector("#valor13").value);
   let num2 = parseInt(document.querySelector("#valor14").value);
   let operacion = document.querySelector("#valor15").value;
   let p = document.querySelector("#p13");
 
-  if (operacion === "S") {
+  if (operacion === "S"||operacion==="s") {
     p.innerHTML = num2 + num1;
-  } else if (operacion === "R") {
+  } else if (operacion === "R"||operacion==="r") {
     p.innerHTML = num2 - num1;
-  } else if (operacion === "M") {
+  } else if (operacion === "M"||operacion==="m") {
     p.innerHTML = num2 * num1;
-  } else if (operacion === "D") {
+  } else if (operacion === "D"||operacion==="d") {
     p.innerHTML = num2 / num1;
   }
 }
-
+//Ejercicio 12
 function ej12() {
   let str = document.querySelector("#valor16").value;
   let p = document.querySelector("#p14");
   if (str === "a" || str === "e" || str === "i" || str === "o" || str === "u") {
     p.innerHTML = "Es vocal";
   } else {
-    p.innerHTML = "";
+    p.innerHTML = "No es vocal";
   }
 }
-
+//Ejercicio 13
 function ej13() {
   let num1 = parseInt(document.querySelector("#valor17").value);
   let num2 = parseInt(document.querySelector("#valor18").value);
@@ -189,14 +192,14 @@ function ej13() {
   if (num2 % num1 === 0) {
     p.innerHTML = `${num1} es multiplo de ${num2}`;
   } else {
-    p.innerHTML = "";
+    p.innerHTML = `${num1} no es multiplo de ${num2}`;
   }
 }
+//Ejercicio 19
 let cont = 0;
 let condicion1 = 0;
 let condicion2 = 0;
 let condicion3 = 0;
-
 function ej19() {
   let nums = parseInt(document.querySelector("#valor19").value);
   let p = document.querySelector("#p16");
@@ -253,7 +256,7 @@ function ej19() {
     cont++;
   }
 }
-
+//Ejercicio 20
 function ej20() {
   let num1 = parseInt(document.querySelector("#valor20").value);
   let num2 = parseInt(document.querySelector("#valor21").value);
@@ -267,7 +270,7 @@ function ej20() {
   }
   p.innerHTML = `Podes hacer ${Math.floor(menorCant)} de recetas.`;
 }
-
+//Ejercicio 21
 function ej21() {
   let ingresos = parseInt(document.querySelector("#valor23").value);
   let casa = parseInt(document.querySelector("#valor24").value);
@@ -286,7 +289,7 @@ function ej21() {
     )} y los pagos mensuales son ${Math.round(casa)}`;
   }
 }
-
+//Ejercicio 22
 function ej22() {
   let pago = parseInt(document.querySelector("#valor25").value);
   let tarjeta = document.querySelector("#valor26").value;
@@ -298,10 +301,10 @@ function ej22() {
     p.innerHTML = `Total final: ${pago}`;
   }
 }
+//Ejercicio 23
 let perdieron = 0;
 let salvaron = 0;
 let buenaNota = 0;
-
 function ej23() {
   let notas = parseInt(document.querySelector("#valor27").value);
   let p = document.querySelector("#p20");
@@ -315,11 +318,11 @@ function ej23() {
   p.innerHTML = `Perdieron: ${perdieron}, salvaron: ${salvaron}, Buena nota: ${buenaNota}`;
   console.log(`${perdieron}${salvaron}${buenaNota}`);
 }
+//Ejercicio 24
 let cont3 = 0;
 let totalSueldos = 0;
 let cantSueldos = 0;
 let sueldoBajo = 0;
-
 function ej24() {
   let sueldo = parseInt(document.querySelector("#valor28").value);
   let p = document.querySelector("#p21");
@@ -334,13 +337,13 @@ function ej24() {
   p.innerHTML = `Total a pagar:${totalSueldos}, cantidad de sueldos: ${cantSueldos}, sueldo mas bajo: ${sueldoBajo}`;
   cont3++;
 }
+//Ejercicio 25
 let cont4 = 0;
 let contClientes = 0;
 let camaras = 0;
 let totalCompras = 0;
 let totalStock = 0;
 let cliente = "";
-
 function ej25() {
   let nombre = document.querySelector("#valor29").value;
   let compras = parseInt(document.querySelector("#valor30").value);
@@ -373,11 +376,11 @@ function ej25() {
     }
     cont4++;
     contClientes++;
-  } else if (!nombre) {
+  } else{
     p.innerHTML = "Por favor introduzca su nombre";
   }
 }
-
+//Ejercicio 26
 function ej26() {
   let noches = parseInt(document.querySelector("#valor32").value);
   let pago = document.querySelector("#valor33").value;
@@ -400,9 +403,9 @@ function ej26() {
     noches + regalo
   } noches, el costo total son $ ${totalPago}`;
 }
+//Ejercicio 27
 let cont5 = 0;
 let numPc = Math.round(Math.random() * 100);
-
 function ej27() {
   let num1 = parseInt(document.querySelector("#valor34").value);
   let p = document.querySelector("#p24");
@@ -420,9 +423,9 @@ function ej27() {
   }
   cont5++;
 }
+//Ejercicio 28
 let punt1 = 0;
 let punt2 = 0;
-
 function ej28() {
   let num1 = parseInt(document.querySelector("#valor35").value);
   let num2 = parseInt(document.querySelector("#valor36").value);
@@ -442,10 +445,10 @@ function ej28() {
   }
 }
 
+//Ejercicio 29
 let circulo = "O";
 let cruz = "X";
 let cont6 = 1;
-
 function ej29A1() {
   let a1 = document.querySelector("#a1");
   if (cont6 % 2 != 0) {
@@ -542,10 +545,10 @@ function ej29C3() {
   cont6++;
 }
 
+//Ejercicio 30
 let jugador1 = "";
 let jugador2 = "";
 let vacio;
-
 function piezas() {
   let j1 = document.querySelector("#valor37").value;
   let j2 = document.querySelector("#valor38").value;
