@@ -448,301 +448,103 @@ let cont6 = 1;
 
 function ej29A1() {
   let a1 = document.querySelector("#a1");
-  if (cont6 === 1) {
-    a1.textContent = cruz;
+  if (cont6 % 2 != 0) {
+    a1.innerHTML = cruz;
+  } else {
+    a1.innerHTML = circulo;
   }
-  if (cont6 === 3) {
-    a1.textContent = cruz;
-  }
-  if (cont6 === 5) {
-    a1.textContent = cruz;
-  }
-  if (cont6 === 7) {
-    a1.textContent = cruz;
-  }
-  if (cont6 === 9) {
-    c3.textContent = cruz;
-  }
-  if (cont6 === 2) {
-    a1.textContent = circulo;
-  }
-  if (cont6 === 4) {
-    a1.textContent = circulo;
-  }
-  if (cont6 === 6) {
-    a1.textContent = circulo;
-  }
-  if (cont6 === 8) {
-    a1.textContent = circulo;
-  }
-  a1.style.pointerEvents="none"
+  a1.style.pointerEvents = "none";
   cont6++;
 }
 
 function ej29A2() {
   let a2 = document.querySelector("#a2");
-  if (cont6 === 1) {
-    a2.textContent = cruz;
-  }
-  if (cont6 === 3) {
-    a2.textContent = cruz;
-  }
-  if (cont6 === 5) {
+  if (cont6 % 2 != 0) {
     a2.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    a2.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    a2.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     a2.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    a2.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    a2.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    a2.innerHTML = circulo;
-  }
-  a2.style.pointerEvents="none"
+  a2.style.pointerEvents = "none";
 
   cont6++;
 }
 
 function ej29A3() {
   let a3 = document.querySelector("#a3");
-  if (cont6 === 1) {
-    a2.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
+  if (cont6 % 2 != 0) {
     a3.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    a3.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    a3.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    a3.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     a3.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    a3.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    a3.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    a3.innerHTML = circulo;
-  }
-  a3.style.pointerEvents="none"
+  a3.style.pointerEvents = "none";
   cont6++;
 }
 
 function ej29B1() {
   let b1 = document.querySelector("#b1");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     b1.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    b1.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    b1.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    b1.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    b1.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     b1.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    b1.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    b1.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    b1.innerHTML = circulo;
-  }
-  b1.style.pointerEvents="none"
+  b1.style.pointerEvents = "none";
   cont6++;
 }
 function ej29B2() {
   let b2 = document.querySelector("#b2");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     b2.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    b2.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    b2.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    b2.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    b2.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     b2.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    b2.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    b2.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    b2.innerHTML = circulo;
-  }
-  b2.style.pointerEvents="none"
+  b2.style.pointerEvents = "none";
   cont6++;
 }
 function ej29B3() {
   let b3 = document.querySelector("#b3");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     b3.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    b3.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    b3.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    b3.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    b3.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     b3.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    b3.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    b3.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    b3.innerHTML = circulo;
-  }
-  b3.style.pointerEvents="none"
+  b3.style.pointerEvents = "none";
   cont6++;
 }
 function ej29C1() {
   let c1 = document.querySelector("#c1");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     c1.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    c1.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    c1.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    c1.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    c1.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     c1.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    c1.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    c1.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    c1.innerHTML = circulo;
-  }
-  c1.style.pointerEvents="none"
+  c1.style.pointerEvents = "none";
   cont6++;
 }
 
 function ej29C2() {
   let c2 = document.querySelector("#c2");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     c2.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    c2.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    c2.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    c2.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    c2.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     c2.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    c2.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    c2.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    c2.innerHTML = circulo;
-  }
-  c2.style.pointerEvents="none"
+  c2.style.pointerEvents = "none";
   cont6++;
 }
 function ej29C3() {
   let c3 = document.querySelector("#c3");
-  if (cont6 === 1) {
+  if (cont6 % 2 != 0) {
     c3.innerHTML = cruz;
-  }
-  if (cont6 === 3) {
-    c3.innerHTML = cruz;
-  }
-  if (cont6 === 5) {
-    c3.innerHTML = cruz;
-  }
-  if (cont6 === 7) {
-    c3.innerHTML = cruz;
-  }
-  if (cont6 === 9) {
-    c3.innerHTML = cruz;
-  }
-  if (cont6 === 2) {
+  } else {
     c3.innerHTML = circulo;
   }
-  if (cont6 === 4) {
-    c3.innerHTML = circulo;
-  }
-  if (cont6 === 6) {
-    c3.innerHTML = circulo;
-  }
-  if (cont6 === 8) {
-    c3.innerHTML = circulo;
-  }
-  textContent
+  c3.style.pointerEvents = "none";
   cont6++;
 }
 
-
 let jugador1 = "";
 let jugador2 = "";
+let vacio;
 
 function piezas() {
   let j1 = document.querySelector("#valor37").value;
@@ -751,295 +553,132 @@ function piezas() {
   jugador2 = j2;
 }
 
+function vacio2() {
+  if (jugador1 === "" || jugador2 === "") {
+    return false;
+  } else {
+    return true;
+  }
+}
+
 function ej30A1() {
   let a1 = document.querySelector("#a1-30");
-  if (cont6 === 1) {
-    a1.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      a1.innerHTML = jugador1;
+    } else {
+      a1.innerHTML = jugador2;
+    }
+    cont6++;
+    a1.style.pointerEvents = "none";
   }
-  if (cont6 === 3) {
-    a1.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    a1.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    a1.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    c3.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    a1.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    a1.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    a1.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    a1.innerHTML = jugador2;
-  }
-  cont6++;
-  a1.style.pointerEvents="none"
 }
 
 function ej30A2() {
   let a2 = document.querySelector("#a2-30");
-  if (cont6 === 1) {
-    a2.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      a2.innerHTML = jugador1;
+    } else {
+      a2.innerHTML = jugador2;
+    }
+    a2.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    a2.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    a2.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    a2.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    a2.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    a2.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    a2.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    a2.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    a2.innerHTML = jugador2;
-  }
-  a2.style.pointerEvents="none"
-  cont6++;
 }
 
 function ej30A3() {
   let a3 = document.querySelector("#a3-30");
-  if (cont6 === 1) {
-    a2.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      a3.innerHTML = jugador1;
+    } else {
+      a3.innerHTML = jugador2;
+    }
+    a3.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    a3.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    a3.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    a3.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    a3.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    a3.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    a3.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    a3.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    a3.innerHTML = jugador2;
-  }
-  a3.style.pointerEvents="none"
-  cont6++;
 }
 
 function ej30B1() {
   let b1 = document.querySelector("#b1-30");
-  if (cont6 === 1) {
-    b1.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      b1.innerHTML = jugador1;
+    } else {
+      b1.innerHTML = jugador2;
+    }
+    b1.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    b1.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    b1.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    b1.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    b1.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    b1.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    b1.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    b1.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    b1.innerHTML = jugador2;
-  }
-  b1.style.pointerEvents="none"
-  cont6++;
 }
 function ej30B2() {
   let b2 = document.querySelector("#b2-30");
-  if (cont6 === 1) {
-    b2.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      b2.innerHTML = jugador1;
+    } else {
+      b2.innerHTML = jugador2;
+    }
+    b2.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    b2.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    b2.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    b2.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    b2.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    b2.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    b2.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    b2.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    b2.innerHTML = jugador2;
-  }
-  b2.style.pointerEvents="none"
-  cont6++;
 }
 function ej30B3() {
   let b3 = document.querySelector("#b3-30");
-  if (cont6 === 1) {
-    b3.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      b3.innerHTML = jugador1;
+    } else {
+      b3.innerHTML = jugador2;
+    }
+    b3.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    b3.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    b3.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    b3.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    b3.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    b3.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    b3.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    b3.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    b3.innerHTML = jugador2;
-  }
-  b3.style.pointerEvents="none"
-  cont6++;
 }
 function ej30C1() {
   let c1 = document.querySelector("#c1-30");
-  if (cont6 === 1) {
-    c1.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      c1.innerHTML = jugador1;
+    } else {
+      c1.innerHTML = jugador2;
+    }
+    c1.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    c1.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    c1.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    c1.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    c1.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    c1.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    c1.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    c1.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    c1.innerHTML = jugador2;
-  }
-  c1.style.pointerEvents="none"
-  cont6++;
 }
 
 function ej30C2() {
   let c2 = document.querySelector("#c2-30");
-  if (cont6 === 1) {
-    c2.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      c2.innerHTML = jugador1;
+    } else {
+      c2.innerHTML = jugador2;
+    }
+    c2.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    c2.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    c2.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    c2.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    c2.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    c2.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    c2.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    c2.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    c2.innerHTML = jugador2;
-  }
-  c2.style.pointerEvents="none"
-  cont6++;
 }
 function ej30C3() {
   let c3 = document.querySelector("#c3-30");
-  if (cont6 === 1) {
-    c3.innerHTML = jugador1;
+  let result = vacio2();
+  if (result) {
+    if (cont6 % 2 != 0) {
+      c3.innerHTML = jugador1;
+    } else {
+      c3.innerHTML = jugador2;
+    }
+    c3.style.pointerEvents = "none";
+    cont6++;
   }
-  if (cont6 === 3) {
-    c3.innerHTML = jugador1;
-  }
-  if (cont6 === 5) {
-    c3.innerHTML = jugador1;
-  }
-  if (cont6 === 7) {
-    c3.innerHTML = jugador1;
-  }
-  if (cont6 === 9) {
-    c3.innerHTML = jugador1;
-  }
-  if (cont6 === 2) {
-    c3.innerHTML = jugador2;
-  }
-  if (cont6 === 4) {
-    c3.innerHTML = jugador2;
-  }
-  if (cont6 === 6) {
-    c3.innerHTML = jugador2;
-  }
-  if (cont6 === 8) {
-    c3.innerHTML = jugador2;
-  }
-  c3.style.pointerEvents="none"
-  cont6++;
 }
